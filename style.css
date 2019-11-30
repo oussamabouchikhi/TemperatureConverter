@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+div{
+	width: 100%;
+	height: 33.33vh; /* or 33.33% */
+}
+
+/* change placeholder color */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+ /* opacity: 1; /* Firefox */
+}
+
+/* remove number input spinner */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input{
+	font-family: 'Asap', sans-serif;
+	font-weight: bold;
+	width: 100%;
+    font-size: 10em;
+	height: 100%;
+	text-decoration: none;
+	color: white;
+	background: none;
+	border: 0; /* border-style: none; */
+	outline-style: none;/* no need*/ 
+
+}
+
+.celsius{
+	
+	background-color: #ff0087;
+}
+
+.fahrenheit{
+	background-color: #ff9400;
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+.kelvin{
+	background-color: #07f;
+}
